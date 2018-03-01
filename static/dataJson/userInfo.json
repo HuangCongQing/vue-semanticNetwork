@@ -1,0 +1,34 @@
+{
+  "resultCode": "0",
+  "resultMsg": "获取信息出错信息2",
+  "data":{	
+            "role":"admin",
+            "token": "aabbccdd",
+            "avatar": "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=571dcaa71a30e924dba994632d610563/3c6d55fbb2fb43163d37add525a4462309f7d371.jpg", 
+            "account":"81438234@qq.com",
+            "nickname": "重邮",
+            "trueName": "重庆邮电大学",
+            "sex": "man",
+            "email":"1756260160@qq.com",
+            "introduction": "重庆邮电大学（Chongqing University of Posts and Telecommunications）简称重邮，坐落于中国重庆市主城区南山风景区内，是中华人民共和国工业和信息化部与重庆市人民政府共建的教学研究型大学。",
+
+            "uid": "236e3402dbab51ea17f9f6f360993233",
+            "permissions":{
+                "/index/readme":true,
+                "/index/personalInfo":true,
+            	"/example/tableList":true,
+                "/movie/newMovie":true,
+        		"/errorpage/401":false,
+        		"/errorpage/404":false,
+                "/example/form":true,
+        		"/example/tinymce":true,
+        		"/example/mixin":true,
+                "/example/31":false,
+                "/systemSet/permissionsManage":true,
+                "/systemSet/loginLog":true
+        		
+        	},
+            "explain":"以上只是部分字段，如需要可自行添加。登录接口可只返回token和uid字段，或者只返回token，那么获取用户信息时无法传参，接口直接根据cookie来返回用户信息"
+    }
+}
+
